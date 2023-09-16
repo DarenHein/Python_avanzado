@@ -1,0 +1,57 @@
+Crear una guía de estudio de ensamblador desde lo más básico puede ser un proceso largo y completo, ya que el lenguaje ensamblador puede ser bastante detallado y técnico. A continuación, te proporcionaré una guía básica para empezar a aprender ensamblador x86, que es una de las arquitecturas más comunes. Esta guía te dará una introducción al tema y te ayudará a comprender los conceptos esenciales.
+
+### Guía de Estudio de Ensamblador x86
+
+#### 1. Conceptos Básicos
+
+   - **¿Qué es el ensamblador?**: El ensamblador es un lenguaje de bajo nivel que se utiliza para programar directamente la arquitectura de una computadora.
+
+   - **Arquitectura x86**: Es una de las arquitecturas de CPU más utilizadas en computadoras personales. Se encuentra en la mayoría de las PC con procesadores Intel o AMD.
+
+#### 2. Estructura de un Programa en Ensamblador
+
+   - **Secciones**: Un programa en ensamblador generalmente se divide en secciones como `.data`, `.bss`, y `.text`.
+
+   - **Directivas**: Utiliza directivas como `section`, `global`, `db`, `dw`, `dd` para definir secciones y datos.
+
+#### 3. Registros y Operandos
+
+   - **Registros**: Los procesadores x86 tienen una serie de registros, como `eax`, `ebx`, `ecx`, `edx`, que se utilizan para almacenar datos temporales.
+
+   - **Operandos**: Los operandos son valores que se operan, ya sea en registros o en memoria.
+
+#### 4. Instrucciones Básicas
+
+   - **Movimiento de Datos**: Las instrucciones `mov`, `push` y `pop` se utilizan para mover datos entre registros y memoria.
+
+   - **Aritmética**: Instrucciones como `add`, `sub`, `mul`, `div` se utilizan para operaciones matemáticas.
+
+   - **Saltos y Bucles**: Las instrucciones `jmp`, `jz`, `jnz`, `je`, `jl`, `jg`, `loop` se utilizan para el control de flujo.
+
+   - **Llamadas a Funciones**: Las instrucciones `call` y `ret` se utilizan para llamar y retornar de funciones.
+
+#### 5. Manipulación de la Pila
+
+   - **Pila (Stack)**: La pila se utiliza para gestionar llamadas a funciones y almacenar variables locales.
+
+   - **Instrucciones de Pila**: `push` y `pop` se utilizan para agregar y quitar elementos de la pila.
+
+#### 6. Trabajo con Memoria
+
+   - **Acceso a la Memoria**: Las instrucciones `mov`, `push`, `pop`, `load`, `store` se utilizan para acceder a la memoria.
+
+#### 7. Depuración y Herramientas
+
+   - **Depuración**: Utiliza herramientas como GDB (GNU Debugger) para depurar tus programas en ensamblador.
+
+#### 8. Ejercicios de Práctica
+
+   - **Practicar**: La mejor manera de aprender ensamblador es escribir código. Comienza con ejercicios simples y avanza gradualmente hacia programas más complejos.
+
+#### 9. Recursos de Aprendizaje
+
+   - **Libros y Tutoriales**: Busca libros y tutoriales en línea sobre ensamblador x86 para obtener más información y ejemplos.
+
+   - **Comunidad**: Participa en foros y comunidades en línea para hacer preguntas y obtener ayuda cuando te encuentres atascado.
+
+Ten en cuenta que aprender ensamblador puede ser desafiante, pero es una habilidad valiosa para comprender cómo funcionan las computadoras a nivel de bajo nivel. Practicar y experimentar con pequeños programas te ayudará a mejorar tus habilidades con el tiempo.
