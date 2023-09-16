@@ -1,0 +1,40 @@
+
+#RELACION MUCHOS A MUCHOS EN MYSQL 
+
+se refiere q que muchos registros de una tabla estan asociados a muchos registros de otra tabla 
+en este caso ocupamamos una tercera tabla que sea el intermetdirio entre ellos con llaves foraneas 
+
+** EJEMPLO 
+
+PRIMER TABLA 
+
+CREATE TABLE Estudiantes (
+    estudiante_id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255),
+    -- Otros campos relacionados con el estudiante
+);
+
+SEGUNDA TABLA 
+
+CREATE TABLE Cursos (
+    curso_id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_curso VARCHAR(255),
+    -- Otros campos relacionados con el curso
+);
+
+TERCERA TABLA 
+
+CREATE TABLE Estudiantes_Cursos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    estudiante_id INT,
+    curso_id INT,
+    FOREIGN KEY (estudiante_id) REFERENCES Estudiantes(estudiante_id),
+    FOREIGN KEY (curso_id) REFERENCES Cursos(curso_id)
+);
+
+** EXPLICACION 
+
+EN LA PRIMERA TABLA tenemos los datos de un estudiante 
+EN LA SEGUNDA TABLA tenemos el registro de los cursos 
+EN LA TERCERA TABLA tenemos la relacion de ambas tablas con llaves foreaneas que juntan la tabla 
+estudiantes con la tabla cursos

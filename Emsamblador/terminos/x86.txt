@@ -1,0 +1,26 @@
+    ** ARQUITECTURA X86 **
+
+    la arquitectura x86 se refiere a un tipo especifico de arquitectura de pc creado por intel y amd se llama "x86" por que la terminacion deñ nombre de las instrucciones (8086,8986... etc )
+
+    ** INSTRUCCIONES **
+
+        + la acquitectura de x86 tienen un conjunto de instrucciones que las computadoras pueden comprender y ejecutar 
+
+    ** REGISTROS **
+
+        + eñ x86 tiene registros que son pequeñas areas en el cpu 
+
+    ** MEMORIA ** 
+        
+        + tiene gran versatilidad con la memoria por eso es importante comprender algunos componenres de la pc 
+    
+    ** COMPATIBILIDAD **
+
+        + gran compatibilidad con programas de pc antiguas 
+    
+    ** SISTEMAS Operativos ** 
+
+        + la mayoria de los sustemas operativos estan bassados en la arquitectura x86
+ 
+    
+    EM RESUMEN LA ARQUITECTURA X86 ES LA QUE RIJE LOS PROCESADORES AMD O INTEL EN LA ACTUALIDAD 

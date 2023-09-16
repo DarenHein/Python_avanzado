@@ -1,57 +1,76 @@
-Crear una guía de estudio de ensamblador desde lo más básico puede ser un proceso largo y completo, ya que el lenguaje ensamblador puede ser bastante detallado y técnico. A continuación, te proporcionaré una guía básica para empezar a aprender ensamblador x86, que es una de las arquitecturas más comunes. Esta guía te dará una introducción al tema y te ayudará a comprender los conceptos esenciales.
+Crear una guía completa de lenguaje ensamblador desde cero hasta nivel experto es una tarea bastante extensa, ya que el ensamblador es un lenguaje de bajo nivel y su dominio requiere un profundo entendimiento de la arquitectura de la máquina objetivo. Sin embargo, puedo proporcionarte una guía básica para comenzar y avanzar gradualmente en tus habilidades de programación en ensamblador. 
 
-### Guía de Estudio de Ensamblador x86
+**Nota Importante:** Ten en cuenta que el lenguaje ensamblador varía según la arquitectura del procesador, y aquí vamos a asumir que estás interesado en aprender sobre ensamblador x86, que es común en arquitecturas de PC. Otras arquitecturas tienen sus propios conjuntos de instrucciones y características únicas.
 
-#### 1. Conceptos Básicos
+## Nivel 1: Introducción al Lenguaje Ensamblador
 
-   - **¿Qué es el ensamblador?**: El ensamblador es un lenguaje de bajo nivel que se utiliza para programar directamente la arquitectura de una computadora.
+### 1.1. Conceptos Básicos
+   - ¿Qué es el lenguaje ensamblador? TERMINADO 
+   - Diferencia entre lenguaje ensamblador y lenguajes de alto nivel. TERMINADO 
 
-   - **Arquitectura x86**: Es una de las arquitecturas de CPU más utilizadas en computadoras personales. Se encuentra en la mayoría de las PC con procesadores Intel o AMD.
+### 1.2. Arquitectura x86
+   - Registros del procesador.
+   - Memoria y direcciones de memoria.
+   - Instrucciones básicas.
 
-#### 2. Estructura de un Programa en Ensamblador
+### 1.3. Programa "Hola, Mundo" en Ensamblador
+   - Escribir un programa simple que muestre "Hola, Mundo" en la consola.
 
-   - **Secciones**: Un programa en ensamblador generalmente se divide en secciones como `.data`, `.bss`, y `.text`.
+### 1.4. Depuración
+   - Uso de depuradores como GDB para rastrear y solucionar problemas en programas ensambladores.
 
-   - **Directivas**: Utiliza directivas como `section`, `global`, `db`, `dw`, `dd` para definir secciones y datos.
+## Nivel 2: Estructuras de Control y Procedimientos
 
-#### 3. Registros y Operandos
+### 2.1. Estructuras de Control
+   - Instrucciones de salto condicional e incondicional.
+   - Ciclos (loops) en ensamblador.
+   
+### 2.2. Procedimientos (Funciones)
+   - Llamando a funciones.
+   - Paso de parámetros y recuperación de valores de retorno.
 
-   - **Registros**: Los procesadores x86 tienen una serie de registros, como `eax`, `ebx`, `ecx`, `edx`, que se utilizan para almacenar datos temporales.
+## Nivel 3: Manipulación de Memoria
 
-   - **Operandos**: Los operandos son valores que se operan, ya sea en registros o en memoria.
+### 3.1. Gestión de Memoria
+   - Trabajo con punteros y direcciones de memoria.
+   - Asignación y liberación de memoria dinámica.
 
-#### 4. Instrucciones Básicas
+### 3.2. Acceso a Datos
+   - Carga y almacenamiento de datos en memoria.
 
-   - **Movimiento de Datos**: Las instrucciones `mov`, `push` y `pop` se utilizan para mover datos entre registros y memoria.
+## Nivel 4: Programación Avanzada
 
-   - **Aritmética**: Instrucciones como `add`, `sub`, `mul`, `div` se utilizan para operaciones matemáticas.
+### 4.1. Interrupciones y Excepciones
+   - Manipulación de interrupciones y excepciones.
+   - Manipulación de señales.
 
-   - **Saltos y Bucles**: Las instrucciones `jmp`, `jz`, `jnz`, `je`, `jl`, `jg`, `loop` se utilizan para el control de flujo.
+### 4.2. Instrucciones SIMD
+   - Optimización de código con instrucciones SIMD para procesamiento paralelo.
 
-   - **Llamadas a Funciones**: Las instrucciones `call` y `ret` se utilizan para llamar y retornar de funciones.
+## Nivel 5: Optimización y Rendimiento
 
-#### 5. Manipulación de la Pila
+### 5.1. Optimización de Código
+   - Técnicas para escribir código ensamblador eficiente.
+   - Perfilamiento de código.
 
-   - **Pila (Stack)**: La pila se utiliza para gestionar llamadas a funciones y almacenar variables locales.
+### 5.2. Multiprocesamiento
+   - Programación en ensamblador para sistemas multiprocesador.
 
-   - **Instrucciones de Pila**: `push` y `pop` se utilizan para agregar y quitar elementos de la pila.
+## Nivel 6: Desarrollo de Software a Nivel de Sistema
 
-#### 6. Trabajo con Memoria
+### 6.1. Control de Hardware
+   - Acceso y control directo de dispositivos de hardware.
+   - Programación del controlador del kernel.
 
-   - **Acceso a la Memoria**: Las instrucciones `mov`, `push`, `pop`, `load`, `store` se utilizan para acceder a la memoria.
+### 6.2. Sistemas Operativos
+   - Conceptos básicos de desarrollo de sistemas operativos.
 
-#### 7. Depuración y Herramientas
+## Nivel 7: Investigación y Desarrollo Avanzado
 
-   - **Depuración**: Utiliza herramientas como GDB (GNU Debugger) para depurar tus programas en ensamblador.
+### 7.1. Diseño de Compiladores
+   - Creación de un compilador simple para un subconjunto del lenguaje ensamblador.
 
-#### 8. Ejercicios de Práctica
+### 7.2. Seguridad y Hacking Ético
+   - Aplicaciones en seguridad informática y análisis de malware.
 
-   - **Practicar**: La mejor manera de aprender ensamblador es escribir código. Comienza con ejercicios simples y avanza gradualmente hacia programas más complejos.
-
-#### 9. Recursos de Aprendizaje
-
-   - **Libros y Tutoriales**: Busca libros y tutoriales en línea sobre ensamblador x86 para obtener más información y ejemplos.
-
-   - **Comunidad**: Participa en foros y comunidades en línea para hacer preguntas y obtener ayuda cuando te encuentres atascado.
-
-Ten en cuenta que aprender ensamblador puede ser desafiante, pero es una habilidad valiosa para comprender cómo funcionan las computadoras a nivel de bajo nivel. Practicar y experimentar con pequeños programas te ayudará a mejorar tus habilidades con el tiempo.
+Esta guía te proporciona una estructura para aprender lenguaje ensamblador desde cero hasta un nivel experto. Ten en cuenta que es un proceso desafiante y que requerirá mucha práctica y estudio continuo. Además, es fundamental elegir una plataforma y arquitectura específicas para enfocar tus esfuerzos de aprendizaje. ¡Buena suerte!

@@ -1,0 +1,22 @@
+** QUE ES Ensamblador ** 
+
+Es un lengueje de bajo nivel 
+este es un lenguaje que comunica hardware y Software 
+
+** POR QUE ES UN LENGUAJE DE BAJO NIVEL ** 
+
+    + que sea de bajo nivel significa que esta mas cerca del hardware de la pc 
+    Ejemplos : 
+    1 -> ensamblador 
+        + los lenguejs de progrmacion de alto nivel son aquiellos que no estan tanto en contacto con el hardware de la pc 
+        Ejemplos : 
+        1 -> java 
+        2 -> python 
+        3 -> c++ 
+        etc 
+
+** INTRUCCIONES DE MAQUINA **
+    + en ensa,bladro de compone de abreviviones y operaciones numericas estas son las que se comunican con el hardware de la pc 
+
+** MAYOR CONTROL ** 
+    + ENSABLADOR -> da un mayor control en el hardware y la getsion de la memoria de la pc 
